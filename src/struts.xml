@@ -8,7 +8,15 @@
 		
 		<action name="listProduct" class="net.codejava.framework.action.ListProductAction">
 			<result name="success">/WEB-INF/views/ProductList.jsp</result>
+		</action>	
+		<action name="ctofservice" class="net.codejava.rest.CtoFService">
+			<result name="success"></result>
 		</action>
-		
+		<action name="ftocservice" class="net.codejava.rest.FtoCService">
+			<result name="success"></result>
+		</action>
 	</package>
+	<constant name="struts.action.excludePattern" value="/rest/.*" />
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="false" />
 </struts>
