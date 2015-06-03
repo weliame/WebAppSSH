@@ -3,11 +3,11 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>Struts2Spring4Hibernate4XML</groupId>
-	<artifactId>Struts2Spring4Hibernate4XML</artifactId>
+	<groupId>com.my</groupId>
+	<artifactId>WebAppSSH</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>Struts2Spring4Hibernate4</name>
+	<name>WebAppSSH</name>
 	<description>Integration of Struts 2, Spring 4 and Hibernate 4 frameworks</description>
 	<properties>
 		<java-version>1.7</java-version>
